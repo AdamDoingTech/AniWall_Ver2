@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KVG-IK-xC1">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController title="2nd page" id="BYZ-38-t0r" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnimePicture2" translatesAutoresizingMaskIntoConstraints="NO" id="zJV-TV-Vz2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="0il-lf-9Qd" appends="YES" id="Qtg-O0-Ogw"/>
@@ -25,10 +25,10 @@
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="6tW-kk-Alt">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="500" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EU-d3-AhO" userLabel="DownloadButton">
-                                <rect key="frame" x="40" y="779" width="65" height="65"/>
+                                <rect key="frame" x="40" y="695" width="65" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="gDh-A3-CR6">
                                         <variation key="heightClass=regular-widthClass=regular" constant="90"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0G-zI-3Ow" userLabel="HeartButton">
-                                <rect key="frame" x="174.5" y="789" width="65" height="58"/>
+                                <rect key="frame" x="155" y="705" width="65" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="Ugi-HP-G5D">
                                         <variation key="heightClass=regular-widthClass=compact" constant="65"/>
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUb-oU-v6p" userLabel="InfoButton">
-                                <rect key="frame" x="314" y="787.5" width="60" height="60"/>
+                                <rect key="frame" x="275" y="703.66666666666663" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="5s9-4e-ml9">
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
@@ -150,25 +150,39 @@
             <objects>
                 <viewController storyboardIdentifier="main" title="1st Page" id="KVG-IK-xC1" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xCX-Ji-21f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EP43D2jU8AEoKKt" translatesAutoresizingMaskIntoConstraints="NO" id="Aof-2Q-jVq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" insetsLayoutMarginsFromSafeArea="NO" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="jL2-8Q-5gj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="296"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-9e-eB8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpg-Y8-PI2">
+                                <rect key="frame" x="152" y="592" width="71" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="C3U-KJ-arG"/>
+                                    <constraint firstAttribute="height" constant="62" id="Qve-tB-y5C"/>
+                                </constraints>
+                                <state key="normal" image="HeartShape"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="sfQ-ih-A0F"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oRs-fZ-m35"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="oRs-fZ-m35" firstAttribute="bottom" secondItem="Vpg-Y8-PI2" secondAttribute="bottom" constant="124" id="6aQ-yU-MFe"/>
                             <constraint firstAttribute="trailing" secondItem="Aof-2Q-jVq" secondAttribute="trailing" id="9bW-8x-mlj"/>
+                            <constraint firstItem="Vpg-Y8-PI2" firstAttribute="top" secondItem="jL2-8Q-5gj" secondAttribute="bottom" constant="296" id="A65-sf-he2"/>
                             <constraint firstAttribute="trailing" secondItem="jL2-8Q-5gj" secondAttribute="trailing" id="Gil-Gd-qc4"/>
+                            <constraint firstItem="Vpg-Y8-PI2" firstAttribute="leading" secondItem="oRs-fZ-m35" secondAttribute="leading" constant="152" id="IAR-DO-tUY"/>
                             <constraint firstItem="Aof-2Q-jVq" firstAttribute="top" secondItem="xCX-Ji-21f" secondAttribute="top" id="IuW-Dx-4CT"/>
                             <constraint firstItem="jL2-8Q-5gj" firstAttribute="leading" secondItem="xCX-Ji-21f" secondAttribute="leading" id="Rg6-zM-lMW"/>
                             <constraint firstItem="Aof-2Q-jVq" firstAttribute="leading" secondItem="xCX-Ji-21f" secondAttribute="leading" id="TtJ-qM-5bc"/>
@@ -182,19 +196,12 @@
             </objects>
             <point key="canvasLocation" x="-768" y="135"/>
         </scene>
-        <!--Main-->
-        <scene sceneID="Gh3-YD-ec3">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="LdC-ar-o9z" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6JH-kT-J4X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-447" y="-283"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="AnimePicture2" width="750" height="1166"/>
+        <image name="AnimePicture2" width="500" height="777.33331298828125"/>
         <image name="BottomGradient" width="414" height="298"/>
         <image name="EP43D2jU8AEoKKt" width="2452" height="3461"/>
+        <image name="HeartShape" width="47" height="41"/>
         <image name="TopGradient" width="414" height="380"/>
         <image name="heart.text.square.fill" catalog="system" width="128" height="114"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
