@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KVG-IK-xC1">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController title="2nd page" id="BYZ-38-t0r" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnimePicture2" translatesAutoresizingMaskIntoConstraints="NO" id="zJV-TV-Vz2">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="0il-lf-9Qd" appends="YES" id="Qtg-O0-Ogw"/>
@@ -25,10 +25,10 @@
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="6tW-kk-Alt">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="500" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EU-d3-AhO" userLabel="DownloadButton">
-                                <rect key="frame" x="40" y="584" width="65" height="65"/>
+                                <rect key="frame" x="40" y="779" width="65" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="gDh-A3-CR6">
                                         <variation key="heightClass=regular-widthClass=regular" constant="90"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0G-zI-3Ow" userLabel="HeartButton">
-                                <rect key="frame" x="155" y="594" width="65" height="58"/>
+                                <rect key="frame" x="174.5" y="789" width="65" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="Ugi-HP-G5D">
                                         <variation key="heightClass=regular-widthClass=compact" constant="65"/>
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUb-oU-v6p" userLabel="InfoButton">
-                                <rect key="frame" x="275" y="592.5" width="60" height="60"/>
+                                <rect key="frame" x="314" y="787.5" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="5s9-4e-ml9">
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
@@ -150,66 +150,37 @@
             <objects>
                 <viewController storyboardIdentifier="main" title="1st Page" id="KVG-IK-xC1" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xCX-Ji-21f">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EP43D2jU8AEoKKt" translatesAutoresizingMaskIntoConstraints="NO" id="Aof-2Q-jVq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" insetsLayoutMarginsFromSafeArea="NO" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="jL2-8Q-5gj">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Sdo-zH-zRd">
-                                <rect key="frame" x="0.0" y="369" width="414" height="298"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-9e-eB8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HeartShape" translatesAutoresizingMaskIntoConstraints="NO" id="plA-mh-hco">
-                                <rect key="frame" x="149" y="524" width="77" height="51"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="450" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jl6-j1-bnk">
-                                <rect key="frame" x="62.5" y="449" width="250" height="50"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="oh9-dS-efG"/>
-                                    <constraint firstAttribute="height" constant="50" id="qbI-Ak-mk7"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="Apple ID Sign iN"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="Wdy-rI-7f2"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oRs-fZ-m35"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Aof-2Q-jVq" secondAttribute="trailing" id="9bW-8x-mlj"/>
-                            <constraint firstItem="oRs-fZ-m35" firstAttribute="bottom" secondItem="plA-mh-hco" secondAttribute="bottom" constant="92" id="Fh9-uW-We8"/>
                             <constraint firstAttribute="trailing" secondItem="jL2-8Q-5gj" secondAttribute="trailing" id="Gil-Gd-qc4"/>
                             <constraint firstItem="Aof-2Q-jVq" firstAttribute="top" secondItem="xCX-Ji-21f" secondAttribute="top" id="IuW-Dx-4CT"/>
-                            <constraint firstItem="Sdo-zH-zRd" firstAttribute="leading" secondItem="Aof-2Q-jVq" secondAttribute="leading" id="OM0-Tr-syO"/>
-                            <constraint firstItem="plA-mh-hco" firstAttribute="leading" secondItem="oRs-fZ-m35" secondAttribute="leading" constant="149" id="OZj-ul-UK4"/>
-                            <constraint firstItem="jl6-j1-bnk" firstAttribute="centerX" secondItem="plA-mh-hco" secondAttribute="centerX" id="PXf-5e-6ky"/>
                             <constraint firstItem="jL2-8Q-5gj" firstAttribute="leading" secondItem="xCX-Ji-21f" secondAttribute="leading" id="Rg6-zM-lMW"/>
                             <constraint firstItem="Aof-2Q-jVq" firstAttribute="leading" secondItem="xCX-Ji-21f" secondAttribute="leading" id="TtJ-qM-5bc"/>
-                            <constraint firstItem="plA-mh-hco" firstAttribute="leading" secondItem="Aof-2Q-jVq" secondAttribute="trailing" constant="-226" id="VbS-FE-rlg"/>
-                            <constraint firstItem="plA-mh-hco" firstAttribute="top" secondItem="jL2-8Q-5gj" secondAttribute="bottom" constant="524" id="ZUf-uD-Tpm"/>
-                            <constraint firstItem="Sdo-zH-zRd" firstAttribute="bottom" secondItem="Aof-2Q-jVq" secondAttribute="bottom" id="diY-WN-okf"/>
-                            <constraint firstItem="oRs-fZ-m35" firstAttribute="trailing" secondItem="plA-mh-hco" secondAttribute="trailing" constant="149" id="eDK-KM-hWm"/>
                             <constraint firstAttribute="bottom" secondItem="Aof-2Q-jVq" secondAttribute="bottom" id="mOE-Rb-BSI"/>
                             <constraint firstItem="jL2-8Q-5gj" firstAttribute="top" secondItem="xCX-Ji-21f" secondAttribute="top" id="tC5-EJ-8i3"/>
-                            <constraint firstItem="jl6-j1-bnk" firstAttribute="top" secondItem="oRs-fZ-m35" secondAttribute="top" constant="449" id="wlu-wS-1U1"/>
-                            <constraint firstItem="oRs-fZ-m35" firstAttribute="bottom" secondItem="jl6-j1-bnk" secondAttribute="bottom" constant="168" id="x2A-YW-6k6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aCy-cm-P9l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bbh-Cp-HFO" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-775.20000000000005" y="98.50074962518741"/>
+            <point key="canvasLocation" x="-768" y="135"/>
         </scene>
         <!--Main-->
         <scene sceneID="Gh3-YD-ec3">
@@ -222,10 +193,8 @@
     </scenes>
     <resources>
         <image name="AnimePicture2" width="750" height="1166"/>
-        <image name="Apple ID Sign iN" width="212" height="38"/>
         <image name="BottomGradient" width="414" height="298"/>
         <image name="EP43D2jU8AEoKKt" width="2452" height="3461"/>
-        <image name="HeartShape" width="70.5" height="61.5"/>
         <image name="TopGradient" width="414" height="380"/>
         <image name="heart.text.square.fill" catalog="system" width="128" height="114"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
