@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnimePicture2-1" translatesAutoresizingMaskIntoConstraints="NO" id="zJV-TV-Vz2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="0il-lf-9Qd" appends="YES" id="Qtg-O0-Ogw"/>
+                                    <outletCollection property="gestureRecognizers" destination="cJY-uC-Csv" appends="YES" id="FUg-YP-a5q"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="6tW-kk-Alt">
+                                <rect key="frame" x="0.0" y="369" width="375" height="298"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="500" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EU-d3-AhO" userLabel="DownloadButton">
+                                <rect key="frame" x="40" y="582" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="gDh-A3-CR6">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="65" id="rco-Cb-xi9">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                                    </constraint>
+                                </constraints>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="2" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="2" minY="4" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="square.and.arrow.down.on.square.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="100" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="downloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IPl-Wz-GR2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0G-zI-3Ow" userLabel="HeartButton">
+                                <rect key="frame" x="155" y="594" width="65" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Ugi-HP-G5D">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="65"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="85"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="65" id="bYf-Nb-BWk">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="58"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="heart.text.square.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="80" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="heartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V0u-Fd-vRd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUb-oU-v6p" userLabel="InfoButton">
+                                <rect key="frame" x="275" y="587" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="5s9-4e-ml9">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="60" id="qmW-Um-IFx">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="info.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="80" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="infoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C0X-JG-Y8J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LUb-oU-v6p" secondAttribute="trailing" constant="40" id="3gv-pt-jZY"/>
+                            <constraint firstAttribute="trailing" secondItem="zJV-TV-Vz2" secondAttribute="trailing" id="Cvq-7x-Xgg"/>
+                            <constraint firstItem="6tW-kk-Alt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ht6-Q9-7w1"/>
+                            <constraint firstItem="zJV-TV-Vz2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PzL-LQ-cph"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2EU-d3-AhO" secondAttribute="bottom" constant="10" id="V3y-Uk-RxZ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="6tW-kk-Alt" secondAttribute="bottom" id="as8-sc-6NT"/>
+                            <constraint firstItem="j0G-zI-3Ow" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c5w-d5-1Th"/>
+                            <constraint firstAttribute="bottom" secondItem="zJV-TV-Vz2" secondAttribute="bottom" id="dSu-sa-LEY"/>
+                            <constraint firstItem="j0G-zI-3Ow" firstAttribute="bottom" secondItem="LUb-oU-v6p" secondAttribute="bottom" constant="5" id="hHt-Ag-Hin">
+                                <variation key="heightClass=regular-widthClass=compact" constant="5"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="2EU-d3-AhO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="lOc-bq-F7N">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="zJV-TV-Vz2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="p2h-y1-fvd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j0G-zI-3Ow" secondAttribute="bottom" constant="5" id="qTo-Ny-ulS">
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="35"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="6tW-kk-Alt" secondAttribute="trailing" id="u4h-No-opb"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="UXt-AB-ZhG" appends="YES" id="h6U-lM-nGX"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="MainViewPicture" destination="zJV-TV-Vz2" id="p1B-YZ-BMW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="0il-lf-9Qd" userLabel="Swipe Gesture Left">
+                    <connections>
+                        <action selector="LeftGesture:" destination="BYZ-38-t0r" id="GsC-yP-5cr"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="UXt-AB-ZhG" userLabel="Swipe Gesture Right" colorLabel="IBBuiltInLabel-Orange">
+                    <connections>
+                        <action selector="RightGesture:" destination="BYZ-38-t0r" id="J8y-Me-6xj"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <gestureRecognizer id="cJY-uC-Csv">
+                    <connections>
+                        <action selector="CGesture:" destination="BYZ-38-t0r" id="LsQ-Dx-iYz"/>
+                    </connections>
+                </gestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AnimePicture2-1" width="945" height="1399.5"/>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="heart.text.square.fill" catalog="system" width="128" height="114"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="square.and.arrow.down.on.square.fill" catalog="system" width="122" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
