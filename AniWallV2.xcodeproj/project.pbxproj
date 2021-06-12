@@ -56,7 +56,7 @@
 		B815C7FB25C77225006C9C5F = {
 			isa = PBXGroup;
 			children = (
-				B815C80625C77225006C9C5F /* EXC 4 App */,
+				B815C80625C77225006C9C5F /* AniWallV2 */,
 				B815C80525C77225006C9C5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B815C80625C77225006C9C5F /* EXC 4 App */ = {
+		B815C80625C77225006C9C5F /* AniWallV2 */ = {
 			isa = PBXGroup;
 			children = (
 				B815C80725C77225006C9C5F /* AppDelegate.swift */,
@@ -80,7 +80,7 @@
 				B815C81525C77226006C9C5F /* Info.plist */,
 				B8C914CF25C774830002A316 /* Fonts */,
 			);
-			path = "EXC 4 App";
+			path = AniWallV2;
 			sourceTree = "<group>";
 		};
 		B8C914CF25C774830002A316 /* Fonts */ = {
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "EXC 4 App" */;
+			buildConfigurationList = B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "AniWallV2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "EXC 4 App" */ = {
+		B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "AniWallV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B815C81625C77226006C9C5F /* Debug */,
