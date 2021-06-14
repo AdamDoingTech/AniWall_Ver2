@@ -15,7 +15,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var imageArray = [#imageLiteral(resourceName: "AnimePicture2"), #imageLiteral(resourceName: "EP43D2jU8AEoKKt"), #imageLiteral(resourceName: "AnimePicture1"), #imageLiteral(resourceName: "EcKixJmU0AAorf8"), #imageLiteral(resourceName: "Image1"), #imageLiteral(resourceName: "EsVEqQiUcAAnbJi")]
+    var imageArray = [#imageLiteral(resourceName: "AnimePicture2"), #imageLiteral(resourceName: "EP43D2jU8AEoKKt"), #imageLiteral(resourceName: "AnimePicture1"), #imageLiteral(resourceName: "EcKixJmU0AAorf8"), #imageLiteral(resourceName: "Image1"), #imageLiteral(resourceName: "EsVEqQiUcAAnbJi"), #imageLiteral(resourceName: "AnimePicture2-1")]
     var imageDisplay = Int()
     var imageDisplayMax = Int()
     @IBAction func CGesture(_ sender: Any) {
