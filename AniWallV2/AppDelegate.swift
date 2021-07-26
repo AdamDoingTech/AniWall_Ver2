@@ -1,7 +1,6 @@
 //
-//  AppDelegate.swift
-//  EXC 4 App
 //
+//  AniWallPaperAppV2
 //  Created by Adam O. on 1/31/21.
 //
 
