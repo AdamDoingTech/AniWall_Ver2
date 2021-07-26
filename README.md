@@ -4,14 +4,14 @@
 -- Hello, this is Adam from Atom Lab X 👨🏾‍💻
 
 Project Overview:
-* This is the second VER of the Anime WallPapreApp.
-* I used to work on that app, before I knew what GitHub is, so the first commit contains so much data, (it could have been so many green dots, but OH WELL... 😩)
-* It is a passion project, And I'm doing that for fun!
-* Why V2 though? - Well, because that is the second edition of the app, the first one never came outside of my local repo, I might add it here someday, so others can learn from my past mistakes with it!
+* 2nd Ver of Anime Wall Paper App.
+* I worked on the App for a bit before adding it to github, so the initial commit (Have many line of code). 
+* It is a fun project (I learn as I go)
+* Why Ver 2? - Because that is the second edition of the App, the first edition never came outside of my local machine, I might add it here someday, so others can learn from my past mistakes with it!, but overall, I started all over again and here I'm.
 
 Contribution Guidelines:
-* Feedback is welcome (to improve the app).
-* No Forking Allowed.
+* Feedback is welcome (To improve the App).
+* No Forking Allowed In The Meantime.
 
 C Ya on the other side! 👋🏾
 
