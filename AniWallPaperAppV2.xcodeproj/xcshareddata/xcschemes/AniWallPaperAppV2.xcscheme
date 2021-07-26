@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B815C80325C77225006C9C5F"
-               BuildableName = "EXC 4 App.app"
-               BlueprintName = "EXC 4 App"
+               BuildableName = "AniWallPaperAppV2.app"
+               BlueprintName = "AniWallPaperAppV2"
                ReferencedContainer = "container:AniWallPaperAppV2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B815C80325C77225006C9C5F"
-            BuildableName = "EXC 4 App.app"
-            BlueprintName = "EXC 4 App"
+            BuildableName = "AniWallPaperAppV2.app"
+            BlueprintName = "AniWallPaperAppV2"
             ReferencedContainer = "container:AniWallPaperAppV2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B815C80325C77225006C9C5F"
-            BuildableName = "EXC 4 App.app"
-            BlueprintName = "EXC 4 App"
+            BuildableName = "AniWallPaperAppV2.app"
+            BlueprintName = "AniWallPaperAppV2"
             ReferencedContainer = "container:AniWallPaperAppV2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
