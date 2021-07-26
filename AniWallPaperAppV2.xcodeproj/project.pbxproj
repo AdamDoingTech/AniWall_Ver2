@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "AniWallV2" */;
+			buildConfigurationList = B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "AniWallPaperAppV2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "AniWallV2" */ = {
+		B815C7FF25C77225006C9C5F /* Build configuration list for PBXProject "AniWallPaperAppV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B815C81625C77226006C9C5F /* Debug */,
