@@ -71,6 +71,12 @@ class ViewController: UIViewController {
         
     }
     
+    // The Function to get the imagees from the internet aka API 
+    func getRandomImage() {
+        let urlString = ""
+        let url = URL(string: urlString)
+    }
+    
     //TODO: find something else to add here instead of adding an info button!
     @IBAction func infoButton(_ sender: Any) {
         print("Info Button Being Pressed")
