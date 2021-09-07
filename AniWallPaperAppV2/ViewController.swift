@@ -49,6 +49,7 @@ class ViewController: UIViewController {
             MainViewPicture.image = imageArray[imageDisplay]
             print(imageDisplay)
         }
+        
         else if imageDisplay == 0 {
             print(imageDisplay)
             imageDisplay = imageDisplayMax
@@ -65,18 +66,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 //        MainViewPicture.image = imageArray[Int.random(in: 0...5)]
         // To prevent from going into a infintie number (setting a bound here).
-        imageDisplay = 0
-        imageDisplayMax = imageArray.count-1
+//        imageDisplay = 0
+//        imageDisplayMax = imageArray.count-1
        // MainViewPicture.image = imageArray[0]
+
+        getRandomImage()
         
     }
     
-    // The Function to get the imagees from the internet aka API 
+    // The Function to get the imagees from the internet aka API
     func getRandomImage() {
-        let urlString = ""
-        let url = URL(string: urlString)
+        let urlString = "https://api.waifu.pics/sfw/waifu"
+        let url = URL(string: urlString)!
+        
+        guard let data = try? Data(contentsOf: url) else {
+            return
+        }
     }
-    
     //TODO: find something else to add here instead of adding an info button!
     @IBAction func infoButton(_ sender: Any) {
         print("Info Button Being Pressed")

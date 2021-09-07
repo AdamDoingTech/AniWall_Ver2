@@ -11,7 +11,7 @@
         <!--2nd page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="2nd page" id="BYZ-38-t0r" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="2nd page" id="BYZ-38-t0r" customClass="ViewController" customModule="AniWallPaperAppV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,7 +159,7 @@
         <!--1st Page-->
         <scene sceneID="0HJ-Gi-9s8">
             <objects>
-                <viewController storyboardIdentifier="main" title="1st Page" id="KVG-IK-xC1" customClass="ViewController" customModule="EXC_4_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main" title="1st Page" id="KVG-IK-xC1" customClass="ViewController" customModule="AniWallPaperAppV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xCX-Ji-21f">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
