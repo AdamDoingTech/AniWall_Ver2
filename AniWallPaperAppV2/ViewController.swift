@@ -24,18 +24,22 @@ class ViewController: UIViewController {
     @IBAction func LeftGesture(_ gestureRecognizer : UISwipeGestureRecognizer) {
         print("Right Gesture Working")
         
-        if imageDisplay < imageDisplayMax {
-            print(imageDisplay)
-            MainViewPicture.image = imageArray[imageDisplay]
-            imageDisplay += 1
-            
-        } else {
-            // this gets executed when imageDisplay is equal to the last index in the imageArray
-            print(imageDisplay)
-            MainViewPicture.image = imageArray[imageDisplay]
-            imageDisplay = 0
-            
-        }
+        print(imageDisplay)
+        MainViewPicture.image = imageArray[imageDisplay]
+        imageDisplay = (imageDisplay + 1) % imageArray.count
+
+//        if imageDisplay < imageDisplayMax {
+//            print(imageDisplay)
+//            MainViewPicture.image = imageArray[imageDisplay]
+//            imageDisplay += 1
+//
+//        } else {
+//            // this gets executed when imageDisplay is equal to the last index in the imageArray
+//            print(imageDisplay)
+//            MainViewPicture.image = imageArray[imageDisplay]
+//            imageDisplay = 0
+//
+//        }
     }
     
     // TODO: make the left gesture go back to the previues picture.
