@@ -97,7 +97,7 @@ class ViewController: UIViewController {
     }
     //TODO: let the user download the picture to the device.
     @IBAction func downloadButton(_ sender: Any) {
-        print("Download Button Being poressed!")
+        print("Download Button Being poressed")
     }
 }
 

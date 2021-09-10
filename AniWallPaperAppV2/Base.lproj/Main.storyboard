@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KVG-IK-xC1">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +13,11 @@
             <objects>
                 <viewController title="2nd page" id="BYZ-38-t0r" customClass="ViewController" customModule="AniWallPaperAppV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnimePicture2" translatesAutoresizingMaskIntoConstraints="NO" id="zJV-TV-Vz2">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="0il-lf-9Qd" appends="YES" id="Qtg-O0-Ogw"/>
@@ -24,10 +25,10 @@
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="6tW-kk-Alt">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="500" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EU-d3-AhO" userLabel="DownloadButton">
-                                <rect key="frame" x="40" y="525" width="65" height="65"/>
+                                <rect key="frame" x="40" y="727" width="65" height="65"/>
                                 <accessibility key="accessibilityConfiguration" label="Download Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="gDh-A3-CR6">
@@ -48,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0G-zI-3Ow" userLabel="HeartButton">
-                                <rect key="frame" x="267.5" y="530" width="65" height="65"/>
+                                <rect key="frame" x="162.66666666666666" y="737" width="65" height="58"/>
                                 <accessibility key="accessibilityConfiguration" hint="To show more pictures like this" label="Like Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="Ugi-HP-G5D">
@@ -69,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUb-oU-v6p" userLabel="InfoButton">
-                                <rect key="frame" x="500" y="530" width="60" height="60"/>
+                                <rect key="frame" x="290" y="735.66666666666663" width="60" height="60"/>
                                 <accessibility key="accessibilityConfiguration" hint="Gives information about artiest who made this art." label="More Information Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="5s9-4e-ml9">
@@ -160,21 +161,21 @@
             <objects>
                 <viewController storyboardIdentifier="main" title="1st Page" id="KVG-IK-xC1" customClass="ViewController" customModule="AniWallPaperAppV2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xCX-Ji-21f">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EP43D2jU8AEoKKt" translatesAutoresizingMaskIntoConstraints="NO" id="Aof-2Q-jVq">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" insetsLayoutMarginsFromSafeArea="NO" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="jL2-8Q-5gj">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="380"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="380"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-9e-eB8">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpg-Y8-PI2">
-                                <rect key="frame" x="262.5" y="319" width="75" height="70"/>
+                                <rect key="frame" x="157.66666666666666" y="529" width="75" height="70"/>
                                 <accessibility key="accessibilityConfiguration" hint="This button is a welcome button that gets you to the app when you click on it." label="Heart Button To Sign in"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="C3U-KJ-arG"/>
