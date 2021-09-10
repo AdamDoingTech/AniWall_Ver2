@@ -46,19 +46,22 @@ class ViewController: UIViewController {
     // The code will get the pictures from the image litral array and bring them to the front, so they can be played in order.
     @IBAction func RightGesture(_ gestureRecognizer : UISwipeGestureRecognizer) {
         print("Left")
+        print(imageDisplay)
+        MainViewPicture.image = imageArray[imageDisplay]
+        imageDisplay = (imageDisplay + 1) % imageArray.count
         
        //MainViewPicture.image = imageArray[imageDisplay]
-        if imageDisplay > 0 {
-            imageDisplay -= 1
-            MainViewPicture.image = imageArray[imageDisplay]
-            print(imageDisplay)
-        }
-        
-        else if imageDisplay == 0 {
-            print(imageDisplay)
-            imageDisplay = imageDisplayMax
-            MainViewPicture.image = imageArray[imageDisplay]
-        }
+//        if imageDisplay > 0 {
+//            imageDisplay -= 1
+//            MainViewPicture.image = imageArray[imageDisplay]
+//            print(imageDisplay)
+//        }
+//
+//        else if imageDisplay == 0 {
+//            print(imageDisplay)
+//            imageDisplay = imageDisplayMax
+//            MainViewPicture.image = imageArray[imageDisplay]
+//        }
     }
     
     @IBOutlet weak var MainViewPicture: UIImageView!
