@@ -72,7 +72,6 @@ class ViewController: UIViewController {
         leftGestureImage = imageArray.count-1
         // MainViewPicture.image = imageArray[0]
         //        getRandomImage()
-        
     }
     
     // The Function to get the imagees from the internet aka API
