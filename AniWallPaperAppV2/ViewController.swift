@@ -19,7 +19,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let imageArray = [#imageLiteral(resourceName: "AnimePicture2"), #imageLiteral(resourceName: "EP43D2jU8AEoKKt"), #imageLiteral(resourceName: "AnimePicture1"), #imageLiteral(resourceName: "EcKixJmU0AAorf8"), #imageLiteral(resourceName: "Image1"), #imageLiteral(resourceName: "EsVEqQiUcAAnbJi"), #imageLiteral(resourceName: "AnimePicture2-1"), #imageLiteral(resourceName: "Ei_icTzVoAAJYuq")]
+    let imageArray = [#imageLiteral(resourceName: "EP43D2jU8AEoKKt"), #imageLiteral(resourceName: "AnimePicture2-1"), #imageLiteral(resourceName: "EcKixJmU0AAorf8"), #imageLiteral(resourceName: "AnimePicture1"), #imageLiteral(resourceName: "Eq9cnXWUYAAsrT-"), #imageLiteral(resourceName: "EsVEqQiUcAAnbJi"), #imageLiteral(resourceName: "AnimePicture2-1"), #imageLiteral(resourceName: "Ei_icTzVoAAJYuq")]
     var rightGestureImage = Int()
     var leftGestureImage = Int()
     @IBAction func CGesture(_ sender: Any) {
