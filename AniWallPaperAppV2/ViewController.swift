@@ -19,7 +19,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let imageArray = [#imageLiteral(resourceName: "EP43D2jU8AEoKKt"), #imageLiteral(resourceName: "AnimePicture2-1"), #imageLiteral(resourceName: "EcKixJmU0AAorf8"), #imageLiteral(resourceName: "AnimePicture1"), #imageLiteral(resourceName: "Eq9cnXWUYAAsrT-"), #imageLiteral(resourceName: "EsVEqQiUcAAnbJi"), #imageLiteral(resourceName: "Image1"), #imageLiteral(resourceName: "Ei_icTzVoAAJYuq")]
+    let imageArray = [#imageLiteral(resourceName: "AnimePicture2"), #imageLiteral(resourceName: "E_JIuzLUYAAUpx1"), #imageLiteral(resourceName: "E5rQNETVkAUNe3t"), #imageLiteral(resourceName: "AnimePicture2-1")]
+    // This is a flexable image array since it will be changed on many faces while the app is in the testing phase.
     var rightGestureImage = Int()
     var leftGestureImage = Int()
     @IBAction func CGesture(_ sender: Any) {
@@ -60,7 +61,7 @@ class ViewController: UIViewController {
             MainViewPicture.image = imageArray[rightGestureImage]
         }
     }
-    
+     
     @IBOutlet weak var MainViewPicture: UIImageView!
     
     override func viewDidLoad() {
